@@ -72,14 +72,71 @@
 - **Widget-тесты**: 4 теста (покрытие UI)
 - **Integration-тесты**: 2 теста (end-to-end сценарии)
 - **Общее покрытие**: 85%
+- 
+<img width="711" height="1319" alt="image" src="https://github.com/user-attachments/assets/3a759f88-b41c-4443-ac27-6d252639445b" />
 
-<img width="331" height="660" alt="Снимок экрана 2025-12-16 в 10 20 39" src="https://github.com/user-attachments/assets/4a9da29f-e814-44af-8aa9-d8c6c759c548" />
+<img width="690" height="1300" alt="image" src="https://github.com/user-attachments/assets/5e81f50c-cee2-473d-8408-7677e545f741" />
 
-<img width="345" height="632" alt="Снимок экрана 2025-12-16 в 10 20 45" src="https://github.com/user-attachments/assets/892c8bb2-c6c1-48b8-955b-27dabf04ba1a" />
 
-<img width="694" height="210" alt="Снимок экрана 2025-12-16 в 10 21 18" src="https://github.com/user-attachments/assets/bbf4d8e8-dd61-4474-a4b0-b9cbd2f9f2f2" />
+Тест 1
 
-<img width="741" height="367" alt="Снимок экрана 2025-12-16 в 10 28 44" src="https://github.com/user-attachments/assets/b9378d51-bd48-4951-a3ad-f045f15fb30f" />
+PS D:\mob_test> flutter test
+Resolving dependencies... 
+Downloading packages... 
+  characters 1.4.0 (1.4.1 available)
+  flutter_lints 5.0.0 (6.0.0 available)   
+  lints 5.1.1 (6.0.0 available)
+  matcher 0.12.17 (0.12.18 available)     
+  material_color_utilities 0.11.1 (0.13.0 available)
+  meta 1.16.0 (1.17.0 available)
+  test_api 0.7.6 (0.7.8 available)        
+Got dependencies!
+7 packages have newer versions incompatible with dependency constraints.
+Try `flutter pub outdated` for more information.
+00:05 +10: D:/mob_test/test/integration_test/app_test.dart: (tearDownAll)
+Warning: integration_test plugin was not detected.
+
+If you're running the tests with `flutter drive`, please make sure your tests       
+are in the `integration_test/` directory of your package and use
+`flutter test $path_to_test` to run it instead.
+
+If you're running the tests with Android instrumentation or XCTest, this means      
+that you are not capturing test results properly! See the following link for        
+how to set up the integration_test plugin:
+
+https://docs.flutter.dev/testing/integration-tests
+
+00:05 +10: All tests passed!
+
+Тест 2
+PS D:\mob_test> flutter test --coverage
+>>
+Resolving dependencies... 
+Downloading packages... 
+  characters 1.4.0 (1.4.1 available)
+  flutter_lints 5.0.0 (6.0.0 available)   
+  lints 5.1.1 (6.0.0 available)
+  matcher 0.12.17 (0.12.18 available)     
+  material_color_utilities 0.11.1 (0.13.0 available)
+  meta 1.16.0 (1.17.0 available)
+  test_api 0.7.6 (0.7.8 available)        
+Got dependencies!
+7 packages have newer versions incompatible with dependency constraints.
+Try `flutter pub outdated` for more information.
+00:05 +10: D:/mob_test/test/integration_test/app_test.dart: (tearDownAll)
+Warning: integration_test plugin was not detected.
+
+If you're running the tests with `flutter drive`, please make sure your tests       
+are in the `integration_test/` directory of your package and use
+`flutter test $path_to_test` to run it instead.
+
+If you're running the tests with Android instrumentation or XCTest, this means      
+that you are not capturing test results properly! See the following link for        
+how to set up the integration_test plugin:
+
+https://docs.flutter.dev/testing/integration-tests
+
+00:05 +10: All tests passed!
 
 
 ### Запуск тестов:
